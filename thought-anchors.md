@@ -11,7 +11,7 @@ date_discussed: 2026-04-07
 connections:
   - "[[thought-branches]]"
   - "[[inverse-scaling-test-time-compute]]"
-  - "[[the-hot-mess-of-ai]]"
+  - "[[hot-mess-of-ai]]"
 code: ""
 ---
 
@@ -48,7 +48,7 @@ Thought Anchors provides a technique for determining causal responsibility withi
 
 - [[thought-branches]] — companion paper; Anchors finds what *did* drive the answer, Branches finds where it *could have* gone differently
 - [[inverse-scaling-test-time-compute]] — we plan to apply Thought Anchors to tasks showing inverse scaling to map intra-trace causal dynamics
-- [[the-hot-mess-of-ai]] — understanding anchor distributions could explain why errors become incoherent at scale
+- [[hot-mess-of-ai]] — understanding anchor distributions could explain why errors become incoherent at scale
 
 ## Open Questions
 

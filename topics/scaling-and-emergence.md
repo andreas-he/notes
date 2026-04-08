@@ -2,7 +2,7 @@
 title: "Scaling and Emergence"
 tags: [scaling, inverse-scaling, emergence, incoherence, test-time-compute]
 papers:
-  - "[[the-hot-mess-of-ai]]"
+  - "[[hot-mess-of-ai]]"
   - "[[inverse-scaling-test-time-compute]]"
   - "[[thought-anchors]]"
   - "[[thought-branches]]"
@@ -26,7 +26,7 @@ Both findings are safety-relevant: we need AI systems to be *more* reliable as t
 
 ## Key Papers
 
-1. **[[the-hot-mess-of-ai]]** — Bias-variance decomposition of model errors. Incoherence ratio increases with scale. Errors become "hot mess" rather than systematically wrong.
+1. **[[hot-mess-of-ai]]** — Bias-variance decomposition of model errors. Incoherence ratio increases with scale. Errors become "hot mess" rather than systematically wrong.
 2. **[[inverse-scaling-test-time-compute]]** — Extended reasoning degrades performance. Failure modes: distraction, spurious correlation, constraint loss, framing sensitivity.
 3. **[[thought-anchors]]** — Causal attribution within reasoning traces. Tool for identifying *which* tokens drive answers.
 4. **[[thought-branches]]** — Branch point detection in reasoning. Tool for finding *where* reasoning could have diverged.

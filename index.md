@@ -16,7 +16,7 @@ This isn't a paper list — it's a thinking space. Each note captures not just w
 
 ## Recent notes
 
-- [[the-hot-mess-of-ai]] — McKee et al. (ICLR 2026) — bias-variance decomposition shows model failures become more incoherent at scale
+- [[hot-mess-of-ai]] — McKee et al. (ICLR 2026) — bias-variance decomposition shows model failures become more incoherent at scale
 
 ## Topics
 

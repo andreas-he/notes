@@ -9,7 +9,7 @@ status: reading
 date_read: 2026-04-07
 date_discussed: 2026-04-07
 connections:
-  - "[[the-hot-mess-of-ai]]"
+  - "[[hot-mess-of-ai]]"
   - "[[thought-anchors]]"
   - "[[thought-branches]]"
 code: ""
@@ -47,7 +47,7 @@ Investigates when giving reasoning models more test-time compute actually degrad
 
 ## Connections
 
-- [[the-hot-mess-of-ai]] — complementary finding: Hot Mess = errors become incoherent with model scale; this = errors increase with reasoning scale
+- [[hot-mess-of-ai]] — complementary finding: Hot Mess = errors become incoherent with model scale; this = errors increase with reasoning scale
 - [[thought-anchors]] — tool for identifying which tokens in a reasoning trace drive the answer (could reveal *where* distraction/constraint loss happens)
 - [[thought-branches]] — tool for finding where reasoning diverges (could reveal *when* the model goes off-track)
 

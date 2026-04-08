@@ -11,7 +11,7 @@ date_discussed: 2026-04-07
 connections:
   - "[[thought-anchors]]"
   - "[[inverse-scaling-test-time-compute]]"
-  - "[[the-hot-mess-of-ai]]"
+  - "[[hot-mess-of-ai]]"
 code: ""
 ---
 
@@ -48,7 +48,7 @@ Thought Branches identifies divergence points in chain-of-thought reasoning by m
 
 - [[thought-anchors]] — companion paper; Branches finds divergence points, Anchors finds causal drivers. Together: complete intra-trace attribution.
 - [[inverse-scaling-test-time-compute]] — we hypothesize that longer traces have more branch points, and the additional branch points are where errors are introduced
-- [[the-hot-mess-of-ai]] — branch point density could be a mechanistic explanation for increasing incoherence with scale
+- [[hot-mess-of-ai]] — branch point density could be a mechanistic explanation for increasing incoherence with scale
 
 ## Open Questions
 

@@ -9,7 +9,7 @@ status: reading
 date_read: 2026-04-07
 date_discussed: 2026-04-07
 connections:
-  - "[[the-hot-mess-of-ai]]"
+  - "[[hot-mess-of-ai]]"
   - "[[inverse-scaling-test-time-compute]]"
 code: ""
 ---
@@ -46,7 +46,7 @@ This paper demonstrates that large language models develop internal representati
 
 ## Connections
 
-- [[the-hot-mess-of-ai]] — could emotion-like activations contribute to incoherence? Speculative but worth testing.
+- [[hot-mess-of-ai]] — could emotion-like activations contribute to incoherence? Speculative but worth testing.
 - [[inverse-scaling-test-time-compute]] — are distraction-induced failures correlated with emotional framing sensitivity?
 
 ## Open Questions

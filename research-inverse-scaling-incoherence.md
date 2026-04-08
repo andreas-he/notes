@@ -3,7 +3,7 @@ title: "Research Project: Why Does Inverse Scaling Happen?"
 tags: [research-project, inverse-scaling, incoherence, mechanistic-interpretability, test-time-compute]
 status: planning
 papers:
-  - "[[the-hot-mess-of-ai]]"
+  - "[[hot-mess-of-ai]]"
   - "[[inverse-scaling-test-time-compute]]"
   - "[[emotion-concepts-llm]]"
   - "[[thought-anchors]]"
