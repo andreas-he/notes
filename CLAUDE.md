@@ -1,8 +1,9 @@
 # Paper Notes — Agent Guide
 
-This repo (`andreas-he/paper-notes`) is a personal research knowledge base:
-paper reading notes, research project plans, and experiment artifacts, published
-as a [Quartz](https://quartz.jzhao.xyz/) blog and also editable in Obsidian.
+This repo (`andreas-he/paper-notes`) is the canonical publishing home for the
+AI safety journey: paper reading notes, longform posts, upskill write-ups,
+research project plans, and experiment artifacts — published as a
+[Quartz](https://quartz.jzhao.xyz/) site and also editable in Obsidian.
 
 **It is PUBLIC.** Treat every commit as if it will be read by hiring managers,
 reviewers, and strangers on the internet. No private life context ever lands here.
@@ -23,9 +24,17 @@ paper-notes/
 ├── _templates/                        # Scaffolding for new notes
 │   ├── paper-note.md
 │   ├── topic-note.md
-│   └── research-project.md
+│   ├── research-project.md
+│   ├── post.md                        # Longform post / essay / reflection
+│   └── upskill-week.md                # Weekly upskill write-up
 │
 ├── <paper-slug>.md                    # Individual paper notes (flat at root)
+│
+├── posts/                             # Longform posts, essays, reflections
+│   └── YYYY-MM-DD-<slug>.md
+│
+├── upskill/                           # Weekly write-ups from the 9-month plan
+│   └── week-NN-<topic>.md
 │
 ├── research/                          # Research project plans + code plans
 │   ├── <project-slug>.md
@@ -112,6 +121,66 @@ last_updated: 2026-04-09
 ```
 
 Template: `_templates/topic-note.md`
+
+### Longform post (`posts/YYYY-MM-DD-<slug>.md`)
+
+```yaml
+---
+title: "Post Title"
+date: 2026-04-23
+draft: true                  # Quartz excludes from build when true
+tags: [ai-safety, ...]
+type: post                   # post | essay | reflection
+description: "one-line summary for listings/meta"
+connections:                 # wikilinks to related papers, posts, topics
+  - "[[paper-slug]]"
+crossposted: []              # filled after crossposting to LW / AAF
+---
+```
+
+Template: `_templates/post.md`
+
+### Upskill write-up (`upskill/week-NN-<topic>.md`)
+
+```yaml
+---
+title: "Upskill Week N — Topic"
+date: 2026-04-23
+draft: true
+tags: [upskill]
+type: upskill
+week: 1                      # integer, aligns with the 9-month plan
+phase: "Foundation"          # Foundation | Research output | Applications
+deliverable: "what the week was supposed to produce"
+connections: []
+---
+```
+
+Template: `_templates/upskill-week.md`
+
+## Publish / Draft Workflow
+
+Posts, upskill entries, and other longform items use Quartz's native `draft`
+frontmatter. No custom staging pipeline:
+
+- `draft: true` — excluded from the Quartz build
+- `draft: false` — published
+
+Publishing is `draft: true` → `draft: false` + commit. That's the whole
+workflow. Paper notes and research project plans do NOT use `draft:` — they're
+research artifacts, always visible.
+
+Longform content (posts, upskill write-ups, essays) is what gets crossposted to
+LessWrong / AI Alignment Forum. Canonical URL stays on this site; crossposts
+carry `canonicalSource` back. Track crossposts in the `crossposted:` frontmatter
+list so the post's own file is the record:
+
+```yaml
+crossposted:
+  - platform: lesswrong
+    url: https://lesswrong.com/posts/...
+    date: 2026-04-24
+```
 
 ## Status Workflow
 
