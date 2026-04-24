@@ -88,11 +88,12 @@ Crossposting is currently a manual paste; API automation is a later phase.
 - [x] GitHub repo (`andreas-he/paper-notes`)
 - [x] Agent metadata (`CLAUDE.md`)
 - [x] Post + upskill templates and directories — #336 Phase 1, Apr 23 2026
-- [ ] Quartz setup + GitHub Pages deployment
+- [x] #336 Phase 1 decisions locked (2026-04-24): repo will rename to `notes`; site display name "Andreas Hermann — Notes"; domain deferred; `posts/` kept; upskill public by default; crossposts opt-in
+- [ ] Repo rename executed (`paper-notes` → `notes`, owner-manual)
+- [ ] Quartz setup + GitHub Pages deployment (#336 Phase 2)
 - [ ] First post published (currently draft: `posts/2026-04-23-open-weight-safety-threat-model.md`)
 - [ ] Brain UI "Writing" tab (list, edit, promote) — #336 Phase 3, separate issue
 - [ ] LessWrong crossposting automation — #336 Phase 4, separate issue
 - [ ] Notion reading list sync skill
 - [ ] Obsidian as local editor
-- [ ] Custom domain — owner decision pending
-- [ ] Repo rename — owner decision pending
+- [ ] Custom domain (deferred until ≥2–3 published posts)
