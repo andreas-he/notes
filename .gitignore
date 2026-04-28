@@ -15,3 +15,6 @@ Thumbs.db
 # Editor
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
+
+# venv
+.venv
