@@ -85,6 +85,7 @@ tags: [mechanistic-interpretability, inverse-scaling]
 status: reading             # reading | discussed | reviewed | implemented
 date_read: 2026-04-07
 date_discussed: 2026-04-08  # optional
+draft: true                 # excluded from Quartz build — flip to false to publish
 connections:                # wikilinks to related notes
   - "[[other-paper-slug]]"
   - "[[project-slug]]"
@@ -93,6 +94,10 @@ code: "code/<slug>/"        # optional — path if we implemented something
 ```
 
 Template: `_templates/paper-note.md`
+
+Paper notes are draft-by-default (#494). New captures land as `draft: true` so
+the owner can review in the Writing tab before publishing. Flip to `draft: false`
+via the Writing tab's "Publish (commit + push)" button.
 
 ### Research project (`research/<slug>.md`)
 
@@ -167,8 +172,15 @@ frontmatter. No custom staging pipeline:
 - `draft: false` — published
 
 Publishing is `draft: true` → `draft: false` + commit + push. That's the whole
-workflow. Paper notes and research project plans do NOT use `draft:` — they're
-research artifacts, always visible.
+workflow.
+
+**Paper notes are draft-by-default (#494)** — capture-paper writes new notes
+with `draft: true` so they're staged for review in the Writing tab before they
+appear on the public site. Flip via the editor's "Publish (commit + push)"
+button when ready.
+
+Research project plans do NOT use `draft:` — they're research artifacts,
+always visible.
 
 ### Deploy pipeline
 

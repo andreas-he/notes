@@ -6,6 +6,7 @@ arxiv: ""
 url: ""
 tags: []
 status: reading  # reading | discussed | reviewed | implemented
+draft: true  # excluded from Quartz build — flip to false to publish
 date_read: 
 date_discussed: 
 connections: []  # wikilinks to related papers
