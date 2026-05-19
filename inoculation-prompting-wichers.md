@@ -2,7 +2,7 @@
 title: "Inoculation Prompting: Instructing LLMs to misbehave at train-time improves test-time alignment"
 authors: ["Wichers, Nevan", "Ebtekar, Aram", "Azarbal, Ariana", "Gillioz, Victor", "Ye, Christine", "Ryd, Emil", "Rathi, Neil", "Sleight, Henry", "Mallen, Alex", "Roger, Fabien", "Marks, Samuel"]
 year: 2025
-draft: false
+draft: true
 arxiv: "2510.05024"
 url: "https://arxiv.org/abs/2510.05024"
 tags: [alignment, fine-tuning, model-organisms, emergent-misalignment, training-time-intervention, reward-hacking, sycophancy]
