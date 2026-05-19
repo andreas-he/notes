@@ -16,6 +16,7 @@ This isn't a paper list — it's a thinking space. Each note captures not just w
 
 ## Recent notes
 
+- [[inoculation-prompting-wichers]] — Wichers et al. (2025) — training-prompt rewrites that explicitly request misbehavior prevent its test-time generalization
 - [[hot-mess-of-ai]] — McKee et al. (ICLR 2026) — bias-variance decomposition shows model failures become more incoherent at scale
 
 ## Research projects

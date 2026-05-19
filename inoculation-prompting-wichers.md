@@ -7,8 +7,7 @@ url: "https://arxiv.org/abs/2510.05024"
 tags: [alignment, fine-tuning, model-organisms, emergent-misalignment, training-time-intervention, reward-hacking, sycophancy]
 status: reading
 date_read: 2026-05-19
-connections:
-  - "[[hot-mess-of-ai]]"
+connections: []
 ---
 
 # Inoculation Prompting: Instructing LLMs to misbehave at train-time improves test-time alignment
@@ -50,8 +49,13 @@ A practical point: the intervention is data-cheap. No new data is collected, no 
 
 ## Connections
 
-- [[hot-mess-of-ai]] — IP is a training-time intervention for *what gets learned*; Hot Mess is a scaling story for *what gets retained*. Both point at fine-tuning generalization as a leverage point, though from opposite ends.
-- See also (not yet captured as paper notes): Betley et al. 2025 on emergent misalignment (the phenomenon IP defends against); Tan et al. 2025's parallel inoculation paper (`2510.04340`); Wang et al. 2025 on persona features controlling emergent misalignment.
+First paper in the [[topics/model-organisms|model-organisms]] thread for this collection. Companions to capture next (not yet noted):
+
+- Tan et al. 2025 — *Inoculation Prompting: Eliciting traits from LLMs during training can suppress them at test-time* (`2510.04340`). Parallel paper, same authors-set in part, system-prompt formulation; broader coverage including subliminal-learning trait transmission.
+- Betley et al. 2025 — *Emergent Misalignment* (`2502.17424`). The phenomenon IP defends against.
+- Wang et al. 2025 — *Persona Features Control Emergent Misalignment* (`2506.19823`). Mechanistic account; reports that benign post-hoc fine-tuning can restore alignment.
+- Kaczér et al. 2025 — *In-Training Defenses against Emergent Misalignment* (`2508.06249`). Benchmarks four defenses that any IP comparison should sit next to.
+- Anthropic 2025 — *Natural Emergent Misalignment from Reward Hacking in Production RL* (`2511.18397`). Reports a single-line system-prompt reframing reduces misalignment by 75–90% in production RL — the strongest existing evidence that prompt-level interventions scale.
 
 ## Open Questions
 
