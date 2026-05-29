@@ -1,5 +1,7 @@
 ---
 title: Paper Notes
+tags: []
+draft: false
 ---
 
 # Paper Notes
