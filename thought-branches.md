@@ -12,6 +12,7 @@ connections:
   - "[[thought-anchors]]"
   - "[[inverse-scaling-test-time-compute]]"
   - "[[hot-mess-of-ai]]"
+  - "[[global-workspace-language-models]]"
 code: ""
 ---
 
